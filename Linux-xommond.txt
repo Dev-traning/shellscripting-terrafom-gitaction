@@ -3,3 +3,8 @@ Here
 echo => It is commond 
 -n =>It is option 
 While apply this commond we can run the hello world
+mv=>the mv commond it is used from mv the fil and folder to another
+mv is also used to change the name of file and folder
+mv -r =>for the folder
+mv =>it is also used for file
+
