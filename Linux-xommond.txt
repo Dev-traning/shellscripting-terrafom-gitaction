@@ -1,0 +1,5 @@
+echo -n "the hello world"
+Here 
+echo => It is commond 
+-n =>It is option 
+While apply this commond we can run the hello world
