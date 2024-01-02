@@ -5,13 +5,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps: 
-     -  name: Get code 
+      - name: Get code 
         uses: actions/checkout@v4
-     -  name: Install Nodejs
+      - name: Install Nodejs
         uses: actions/setup-node@v4
         with:
-             node-version: 18
-     -  name: Install depency 
-     -    run:  npm ci
-     -   name: Run test
-     -   run: npme test
+          node-version: 18
+      - name: Install dependency 
+        run: npm ci
+      - name: Run test
+        run: npm test
