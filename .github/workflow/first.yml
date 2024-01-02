@@ -1,5 +1,6 @@
 name: test
 on: push
+branches: [ "CI/CD" ]
 jobs:
   test:
     runs-on: ubuntu-latest
