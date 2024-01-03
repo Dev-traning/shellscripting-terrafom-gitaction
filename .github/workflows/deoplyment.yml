@@ -10,20 +10,7 @@ jobs:
         run: |
           echo "This job ran successfully"
           echo "::set-output name=my_output::Some output information"
-
-  handle-failure:
-    runs-on: ubuntu-latest
-    needs: info
-    if: failure()
-    steps:
-      - name: output-on-failure
-        run: |
-          echo "This job failed, but still outputting information"
-          echo "::set-output name=my_output::Some output information"
-
-  final-output:
-    needs: [info, handle-failure]
-    runs-on: ubuntu-latest
-    steps:
-      - name: final-output
+      - name: ounewput
         run: echo "${{ toJSON(needs.info.outputs.my_output) }}"
+
+
