@@ -1,0 +1,10 @@
+name: output information
+on: workflow_run
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: output
+        run: echo "${{ toJSON(steps.info.outputs) }}"
+
+        
