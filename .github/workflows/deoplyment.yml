@@ -1,8 +1,6 @@
 name: output information
 
-on:
-  workflow_run:
-    workflows: ["Name_of_your_workflow"]
+on: [push]
 
 jobs:
   info:
