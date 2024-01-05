@@ -2,7 +2,7 @@ name: Deploy website
 on:
   push:
     branches:
-      - main
+      - CICD-New
 jobs:
   test:
     runs-on: ubuntu-latest
