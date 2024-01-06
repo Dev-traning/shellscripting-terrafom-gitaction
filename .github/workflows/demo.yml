@@ -39,8 +39,9 @@ jobs:
       - name: Get built the artifact
         uses:  actions/download-artifact@v4
         with:
-          name: dist
-          run: ls
+          name: dist-file
+      - name: Output content
+        run: ls
       - name: Depoly
         run: echo "depoly"
          
