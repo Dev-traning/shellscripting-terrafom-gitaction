@@ -10,7 +10,7 @@ jobs:
     env:
       MONGODB_USERNAME: khatwanidimpy
       MONGODB_PASSWORD: zjjS3xHoORGDMpJ1
-      MONGODB_CLUSTER_ADDRESS: mongodb+srv://khatwanidimpyzjjS3xHoORGDMpJ1:@cluster0.mdsdpqn.mongodb.net/?retryWrites=true&w=majority
+      MONGODB_CLUSTER_ADDRESS: cluster0.mdsdpqn.mongodb.net
     environment: testing
     runs-on: ubuntu-latest
     steps:
